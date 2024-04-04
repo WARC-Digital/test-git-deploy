@@ -31,7 +31,7 @@ function RunActions(){
     'git submodule update',
     'git submodule status',
     'rm -rf ~/Desktop/target/*',
-    'cp ./index.html ~/Desktop/target/'];
+    'cp -a /source/. ~/Desktop/target/'];
 
 
     commands.forEach((value)=>{
