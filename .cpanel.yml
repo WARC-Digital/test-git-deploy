@@ -1,6 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/zkxenonc/test.warc.digital/
-    - /bin/cp index.html $DEPLOYPATH
-  
