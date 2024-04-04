@@ -30,7 +30,8 @@ function RunActions(){
     'git submodule sync',
     'git submodule update',
     'git submodule status',
-    'rm -rvf ~/Desktop/target/*',
+    // 'rm -rf ~/Desktop/target/*',
+    'find ~/Desktop/target/* -delete',
     'cp -a ./source/ ~/Desktop/target/'];
 
 
