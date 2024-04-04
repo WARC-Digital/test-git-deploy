@@ -30,7 +30,7 @@ function RunActions(){
     'git submodule sync',
     'git submodule update',
     'git submodule status',
-    'rm -rfv ~/Desktop/target/',
+    'rm -rf ~/Desktop/target/*',
     'cp ./index.html ~/Desktop/target/'];
 
 
@@ -54,5 +54,5 @@ function execCommand(cmd){
 }
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`app listening on port ${port}`)
 })
